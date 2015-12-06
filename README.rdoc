@@ -1,0 +1,2 @@
+Installation:
+Clone into redmine/public/themes directory, restart Redmine, and select the them via Settings --> Display
