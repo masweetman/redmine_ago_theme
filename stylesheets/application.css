@@ -1,5 +1,61 @@
 @import url(../../../stylesheets/application.css);
 
+#top-menu {background: #101010;}
+#header {background: #707070;}
+.box{background-color:#f6f6f6;}
+
+/* Header background color */
+#wrapper  #header {
+  background-color: #707070;
+}
+
+/* Mobile toggle button colors */
+#wrapper #header a.mobile-toggle-button {
+  border-left-color: #dddddd;
+  color: #f8f8f8;
+}
+
+/* Flyout menu colors */
+#wrapper .top-menu {
+  color: #ffffff;
+  background-color: #101010;
+}
+
+#wrapper .flyout-menu {
+  background-color: #101010;
+}
+
+/* Flyout menu border color */
+#wrapper .flyout-menu__avatar, #wrapper .flyout-menu ul li a {
+  border-top-color: rgba(255,255,255,.1); /* white with alpha transparency */
+}
+
+/* Flyout menu link color */
+#wrapper .flyout-menu a, #wrapper .flyout-menu__avatar a {
+  color: #ffffff;
+}
+
+/* Flyout menu headings background */
+#wrapper .flyout-menu h3 {
+  background-color: #707070;
+  border-color: #505050;
+}
+
+/* Flyout menu headings text color */
+#wrapper .flyout-menu h3, #wrapper .flyout-menu h4 {
+  color: #ffffff;
+}
+
+/* Search magnifying glass label color */
+#wrapper .search-magnifier {
+  color: #bbbbbb;
+}
+
+/* Project menu dropdown arrow color */
+#wrapper .jump-box-arrow {
+     color: #ffffff;
+}
+
 @media (max-width: 420px) {
 	.fraternity_members_col_1 {
         display:none;
