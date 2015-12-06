@@ -1,1 +1,52 @@
 @import url(../../../stylesheets/application.css);
+
+@media (max-width: 420px) {
+	.fraternity_members_col_1 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+	}
+
+	.fraternity_members_col_2 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+	}
+
+	.fraternity_members_col_4 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+	}
+
+	.fraternity_members_col_7 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+	}
+
+	.fraternity_members_col_8 {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+	}
+
+    .budget_mobile {
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    }
+
+}
