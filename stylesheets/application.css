@@ -5,8 +5,8 @@ div.projects h3 { background: url(../images/crest.png) no-repeat 0% 50%; padding
 dt.project { background-image: url(../images/crest.png); }
 
 body { font-family: arial, helvetica, sans-serif; color:#000000; }
-h1, h2, h3, h4 { font-family: arial, helvetica, sans-serif; color: #00529B;}
-#content h1, h2, h3, h4 { color: #00529B; }
+h1, h2, h3, h4 { font-family: arial, helvetica, sans-serif; color: #000000;}
+#content h1, h2, h3, h4 { color: #000000; }
 
 /***** Layout *****/
 #wrapper { background: #FFFFFF }
