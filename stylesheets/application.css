@@ -4,9 +4,11 @@
 div.projects h3 { background: url(../images/crest.png) no-repeat 0% 50%; padding-left: 20px; }
 dt.project { background-image: url(../images/crest.png); }
 
+/**
 body { font-family: arial, helvetica, sans-serif; color:#000000; }
 h1, h2, h3, h4 { font-family: arial, helvetica, sans-serif; color: #000000;}
 #content h1, h2, h3, h4 { color: #000000; }
+**/
 
 /***** Layout *****/
 #wrapper { background: #FFFFFF }
@@ -15,6 +17,16 @@ h1, h2, h3, h4 { font-family: arial, helvetica, sans-serif; color: #000000;}
 #header { background-color: #00529B; color:#FFFFFF; }
 #header h1 { color: #FFFFFF; }
 #quick-search { border: 2px solid #F6B418; border-radius: 10px; padding: 5px; }
+
+#login-form {
+  background-color: #FFFFFF;
+  padding-top: 160px;
+  background: url(../images/crest_full.jpg);
+  background-size: 120px;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
 
 #main-menu li a:hover {background:#F6B418; color:#FFFFFF;}
 #main-menu li a.new-object { background-color:#F6B418; }
